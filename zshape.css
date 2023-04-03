@@ -1,0 +1,121 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  position: relative;
+}
+/* Define navbar styles */
+nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+background-color: #333;
+color: #fff;
+font-size: 1.2rem;
+}
+
+/* Define navbar links styles */
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 0 1rem;
+}
+
+main {
+padding: 2rem;
+background-color: #f1f1f1;
+font-size: 1.2rem;
+height: 45vh
+}
+
+/* Define main section content styles */
+.content {
+max-width: 800px;
+margin: 0 auto;
+text-align: center;
+}
+
+/* Define main section heading styles */
+.heading {
+margin-top: 6rem;
+font-size: 2rem;
+margin-bottom: 1rem;
+}
+
+/* Define main section paragraph styles */
+.paragraph {
+line-height: 1.5;
+margin-bottom: 1rem;
+}
+
+/* Define main section button styles */
+.button {
+padding: 0.5rem 1rem;
+background-color: #333;
+color: #fff;
+border: none;
+border-radius: 0.5rem;
+font-size: 1.2rem;
+cursor: pointer;
+}
+
+.button:hover {
+background-color: #555;
+}
+
+section {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2rem;
+background-color: #fff;
+font-size: 1.2rem;
+text-align: center;
+}
+
+@media only screen and (max-width: 1000px) {
+section {
+    flex-wrap: wrap;
+}
+}
+
+/* Define article styles */
+article {
+
+margin: 1rem;
+padding: 1rem;
+border: 1px solid #ccc;
+border-radius: 0.5rem;
+height: 300px;
+min-width: 250px;
+max-width: 300px;
+}
+
+/* Define article heading styles */
+article h2 {
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+/* Define article content styles */
+article p {
+line-height: 1.5;
+margin-bottom: 1rem;
+}
+
+footer {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+position: relative;
+background-color: #333;
+color: #fff;
+font-size: 1.2rem;
+
+}
